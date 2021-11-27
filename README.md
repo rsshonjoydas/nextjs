@@ -10,6 +10,7 @@
 - [Next js](#next-js)
   - [React vs Next](#react-vs-next)
   - [Why learn Next JS](#why-learn-next-js)
+- [Routing](#routing)
 
 ### Next js
 
@@ -38,6 +39,16 @@ Next.js simplifies the process of building a React application for production.
 4. Support for CSS modules
 5. Authentication
 6. Dev and Prod build system
+
+### Routing
+
+1. Page based routing mechanism - Pages are associated with a route based on their file name
+2. Nested routes - Nested folder structure, files wil be automatically routed in the same way in the URL
+3. Dynamic routes - Can be created by adding square brackets to a page name
+4. Catch all routes - Add three dots inside square brackets to create catch all route. Helpful when you want different URL's for the same page layout or even when you're working with pages where some of the route parameters are optional
+5. Link components to navigate on click of an element
+6. useRouter hook's router.push or router.replace method to navigate programmatically
+7. How to create a custom 404 page
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
