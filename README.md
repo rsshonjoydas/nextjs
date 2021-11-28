@@ -16,6 +16,7 @@
   - [Why pre-render?](#why-pre-render)
   - [Static Generation](#static-generation)
   - [getStaticProps](#getstaticprops)
+- [API Routes](#api-routes)
 
 ### Next js
 
@@ -107,6 +108,23 @@ Next.js simplifies the process of building a React application for production.
     - In our example, we returned an object & the object contained a props key which was an object as well
 5.  - getStaticProps will run at build time
     - During development, getStaticProps runs on every request.
+
+### API Routes
+
+- API routes feature & how to create a basic API in Next.js
+
+  - Handle POST request
+  - Handle GET requests
+  - Dynamic API routes
+  - Handle DELETE requests
+  - Catch all API routes
+
+- Next JS is a full stack framework
+- You can write the frontend code in React and also write APIs that can be called by the frontend code.
+- API routes allow you to create RESTful endpoints as part of your Next.js application folder structure
+- Within the pages folder, you need to create a folder called 'api'
+- You can add business logic without needing to write any additional custom server code and without having to configure any API routes
+- Next JS gives you everything you need to write full-stack React + Node applications
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
