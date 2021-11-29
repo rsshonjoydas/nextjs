@@ -17,6 +17,7 @@
   - [Static Generation](#static-generation)
   - [getStaticProps](#getstaticprops)
 - [API Routes](#api-routes)
+- [Next Styling](#next-styling)
 
 ### Next js
 
@@ -125,6 +126,15 @@ Next.js simplifies the process of building a React application for production.
 - Within the pages folder, you need to create a folder called 'api'
 - You can add business logic without needing to write any additional custom server code and without having to configure any API routes
 - Next JS gives you everything you need to write full-stack React + Node applications
+
+### Next Styling
+
+Styling in essential to build any web application
+
+- Global styles
+- Component styles
+- SASS or SCSS
+- CSS-in-JS solution
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
