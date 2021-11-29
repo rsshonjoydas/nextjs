@@ -1,14 +1,14 @@
+import Footer from '@/layout/Footer'
+import Header from '@/layout/Header'
 import Head from 'next/head'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import '../styles/globals.css'
-import '../styles/layout.css'
+import 'styles/globals.css'
+import 'styles/layout.css'
 
 function MyApp({ Component, pageProps }) {
   if (Component.getLayout) {
     return Component.getLayout(<Component {...pageProps} />)
   }
-  
+
   return (
     <>
       <Head>

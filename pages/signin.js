@@ -1,5 +1,5 @@
+import Footer from "@/layout/Footer"
 import Head from 'next/head'
-import Footer from "../components/Footer"
 
 const SignIn = () => {
   return (
