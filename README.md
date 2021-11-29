@@ -18,6 +18,7 @@
   - [getStaticProps](#getstaticprops)
 - [API Routes](#api-routes)
 - [Next Styling](#next-styling)
+- [Miscellaneous Section](#miscellaneous-section)
 
 ### Next js
 
@@ -135,6 +136,19 @@ Styling in essential to build any web application
 - `Component styles` - Next.js support CSS Modules using a [name].module.css naming conversion
 - `SASS or SCSS` - Install the sass package
 - `CSS-in-JS solution` - Inline styles and Styled Components
+
+### Miscellaneous Section
+
+- App Layout
+- Head Component
+- Image Component
+- Absolute Imports and Modules Paths
+- Static HTML Export
+- Configure TypeScript Support
+- Preview
+- Next Config File
+- Redirects
+- Environment Variables
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
