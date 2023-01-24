@@ -1,4 +1,6 @@
 import '../styles/index.scss';
+import Header from './Header';
+import Footer from './Footer';
 
 export default function RootLayout({
   children,
@@ -8,7 +10,11 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
