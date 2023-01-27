@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { Todo } from '../../../typings';
+import { Todo } from '../../../../typings';
 
 type PageProps = {
   params: {
