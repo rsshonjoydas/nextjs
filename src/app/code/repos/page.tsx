@@ -5,7 +5,12 @@ interface ReposPageProps {}
 
 const fetchRepos = async () => {
   const response = await fetch(
-    'https://api.github.com/users/rsshonjoydas/repos'
+    'https://api.github.com/users/rsshonjoydas/repos',
+    {
+      next: {
+        revalidate: 60,
+      },
+    }
   );
 
   await new Promise((resolve) => setTimeout(resolve, 1000));
