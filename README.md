@@ -5,7 +5,7 @@
 
 <p align="center">
   <h3 align="center">Next JS</h3>
-  <div align="center"><h3>Project Link: <a href="https://github.com/rsshonjoydas/next-js">GitHub</a> or <a href="https://codesandbox.io/s/github/rsshonjoydas/next-js/tree/main">CodeSandbox</a></h3></div></p>
+  <div align="center"><h3>Project Link: <a href="https://github.com/rsshonjoydas/next-js" target='_blank'>GitHub</a> or <a href="https://codesandbox.io/s/github/rsshonjoydas/next-js/tree/main" target='_blank'>CodeSandbox</a></h3></div></p>
 
 - [Next js](#next-js)
   - [React vs Next](#react-vs-next)
@@ -19,6 +19,7 @@
 - [API Routes](#api-routes)
 - [Next Styling](#next-styling)
 - [Miscellaneous Section](#miscellaneous-section)
+- [NextJS 13 Project](#nextjs-13-project)
 
 ### Next js
 
@@ -149,6 +150,11 @@ Styling in essential to build any web application
 - Next Config File
 - Redirects
 - Environment Variables
+
+### NextJS 13 Project
+
+- <h5>Project Link: <a href="https://github.com/rsshonjoydas/nextjs/tree/nextjs-13-project" target='_blank'>GitHub</a></h5>
+- <h5>Live Link: <a href="https://rsshonjoydas-github.vercel.app/" target='_blank'>Vercel</a></h5>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
