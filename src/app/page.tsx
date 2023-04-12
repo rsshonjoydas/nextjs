@@ -1,12 +1,13 @@
 'use client';
 
+import CourseSearch from '@/components/CourseSearch';
 import Courses from '@/components/Courses';
 import { FC, useEffect, useState } from 'react';
 import LoadingPage from './loading';
 
 interface HomePageProps {}
 
-const HomePage: FC<HomePageProps> = ({}) => {
+const HomePage: FC<HomePageProps> = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +29,7 @@ const HomePage: FC<HomePageProps> = ({}) => {
   return (
     <>
       <h1>Welcome To Redolence</h1>
+      <CourseSearch getSearchResults={(results: any) => setCourses(results)} />
       <Courses courses={courses} />
     </>
   );
