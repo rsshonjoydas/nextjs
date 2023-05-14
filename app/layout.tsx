@@ -1,6 +1,20 @@
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
 import '../styles/index.scss';
-import Header from './Header';
 import Footer from './Footer';
+import Header from './Header';
+
+export const metadata: Metadata = {
+  title: 'Redolence',
+  description: 'MERN Stack Web Developer',
+  keywords:
+    'Redolence, web developer, HTML, CSS, SASS, Tailwindcss, JavaScript, Typescript, ReactJS, NextJS, NodeJS, ExpressJS, MondoDB, Redis, Firebase and Docker',
+};
+
+const font = Poppins({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+});
 
 export default function RootLayout({
   children,
@@ -8,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className={font.className}>
       <head />
       <body>
         <Header />
