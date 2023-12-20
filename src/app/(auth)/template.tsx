@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
 
-import './style.css';
-
 const navLinks = [
   { name: 'Register', href: '/register' },
   { name: 'Login', href: '/login' },
