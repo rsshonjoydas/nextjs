@@ -1,5 +1,11 @@
+import DefaultBLur from '@/components/default-blur';
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <DefaultBLur />
+    </>
+  );
 };
 
 export default Home;
